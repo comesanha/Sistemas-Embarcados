@@ -6,6 +6,7 @@ Finalidade: Declarar variáveis; inicializar variáveis e inicializar um conjunt
 Parte do Sistema: Nenhum
 Restrições de segurança: Nenhuma 
 */
+
 // A complilação do código não se realiza se as variáveis forem declaradas depois de alguma função, em alguns compiladores.
 /*
 //Este código compila sem problemas?
