@@ -1,7 +1,7 @@
 /*
 Programa:Declarando variáveis
 Autor:Raphael Comesanha
-Período de Elaboração:20/01/2020 a 
+Período de Elaboração:20/01/2020 a 11/07/2020
 Finalidade: Declarar variáveis; inicializar variáveis e inicializar um conjunto de caracteres e vírgula
 Parte do Sistema: Nenhum
 Restrições de segurança: Nenhuma 
@@ -73,7 +73,7 @@ int main(void){
   char inicial = 'A';
   int idade = 18;
   float peso = 60.5, salario = 300;
-  // utilização ddas variáveis
+  // utilização das variáveis
   lcdInit();
   lcdChar(inicial);
   lcdChar(idade);
@@ -82,7 +82,7 @@ int main(void){
 return 0;
 }
 */
-
+/*
 // Inicializando um conjunto de caracteres.
 // o tamanho da cadeia de caracteres deve ser, pelo menos, uma unidade maior que a quantidade de caracteres inicializada.
 #include <io.h>
@@ -90,10 +90,28 @@ return 0;
 #include <lcd.h>
 #include <so.h>
 int main(void){
-  char nome[10] = "Jose";
+  char nome[5] = "Jose";
   lcdInit();
   lcdString(nome);
   for(;;){
   }
-
 }
+*/
+/*
+//Utilização da vírgula como separador
+#include <io.h>
+#include <keypad.h>
+#include <lcd.h>
+#include <so.h>
+int main (void){
+  int a = 4, b = 7;// AS variáveis a e b são criadas como do tipo int
+  int c;
+  c = a * b;
+  lcdInit();
+  lcdNumbber(c);
+  for(;;){
+  }
+  return;
+}
+ */
+ 
