@@ -2,7 +2,8 @@
 /*
 Programa:
 Autor:
-Período de Elaboração:   /  /     a   /  / 
+Início da Elaboração:   /  /    
+Última atualização:   /  /    
 Finalidade: 
 Parte do Sistema:
 Restrições de segurança:

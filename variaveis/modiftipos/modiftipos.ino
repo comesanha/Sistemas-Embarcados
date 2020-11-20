@@ -1,7 +1,8 @@
 /*
 Programa:Modificadores de Tipos
 Autor:Raphael Comesanha
-Período de Elaboração:11/07/2020 a 
+Início da Elaboração: 11/07/2020
+Última Atualização: 20/11/2020
 Finalidade: Apresenttar os modificadores de tipos e suas funcionalidades
 Parte do Sistema: Capítulo 4 Variáveis
 Restrições de segurança: Nenhuma
@@ -77,7 +78,7 @@ return 0;
 */
 
 /*
-//  Cria um cntador persistente que é incrementado a cada chamada de função
+//  Cria um contador persistente que é incrementado a cada chamada de função
 
 int main(void){
   int ContadorPersistente(10); // Define uma contagem até 10 antes de resetar a variavelPersistente.
@@ -85,7 +86,7 @@ int main(void){
 }
 int ContadorPersistente(int reseta){
   static char variavelPersistente;
-  if (reseta){
+  if (reseta){ // verificar essa condição de ocorrência
     variavelPersistente = 0;
   } else {
     return (variavelPersistente++);

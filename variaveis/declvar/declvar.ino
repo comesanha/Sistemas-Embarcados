@@ -1,15 +1,16 @@
 /*
 Programa:Declarando variáveis
 Autor:Raphael Comesanha
-Período de Elaboração:20/01/2020 a 11/07/2020
+Início da Elaboração: 20/01/2020 
+Última Atualização: 20/11/2020
 Finalidade: Declarar variáveis; inicializar variáveis e inicializar um conjunto de caracteres e vírgula
-Parte do Sistema: Capítulo 1 Variáveis
+Parte do Sistema: Capítulo 4 Variáveis
 Restrições de segurança: Nenhuma 
 */
 
 // A compilação do código não se realiza se as variáveis forem declaradas tomandos alguns cuidados, em alguns compiladores.
 /*
-//Este código compila sem problemas emm qualquer compildor?
+//Este código compila sem problemas em qualquer compildor?
 #include <io.h>
 #include <keypad.h>
 #include <lcd.h>
@@ -82,53 +83,7 @@ int main(void){
   }
 return 0;
 }
-*/
-
 /*
-//A escrita em bases diferentes da decima é feita a partir dos prefixios 0b para binário, 0x para hexadecimal ou 0 para octal. 
-
-// Escrevendo os números 200_10, C8_16 e 11001001_2
-unsigned int dec = 200;    // valor 200 escrito em decimal positivo
-unsigned int hex = 0xC8;          // valor 200 escrito em hexadecimal positivo
-unsigned int bin = 0B11001001;    // valor 200 escrito em binário positivo
-// Todas as variáveis tem o mesmo valor.
-
-// Escrevendo na base octal
-int a0 = 200;      // valor 200 em decimal positivo
-int b0 = 0200;     // valor 200 em octal positivo, representa 192 em decima
-int c0 = 0311;   // valor 311 em octal positivo, representa 200 em decimal
-int d0 = 311;      //valor 311 em decimal positivo
-
-int main(void){
-  return 0;
-}
-*/
-
-/*
-// Todo número digitado com ponto decimal é do tipo double por padrão.
-float a = 3.05;      // 3.05 é convertido e armazenado como float.
-double b = 3.05;    // 3.05 é convertido e armazenado como double.
-// por questão de precisão no armazenamento, é possível que a possua um valor diferente de b.
-int main(void){
-  if (a == 3.05){
-      // a comparação é feita entre um número float (a) e um
-      //double (3.05) - false
-  }
-  if(a == 3.05f){
-    // a comparação é feita entre um número float (a) e outro
-    // float (3.05f) - true
-  }
-  if(b == 3.05){
-    // a comparação é feita entre um número double (b) e outro
-    // double (3.05) - true
-  }
-  if(b == 3.05f){
-    // a comparação é feita entre um número double (b) e um
-    // float (3.05f) - false
-  }
-  return 0;
-}
-*/
 
 /*
 // Inicializando um conjunto de caracteres.
